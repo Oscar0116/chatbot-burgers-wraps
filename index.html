@@ -3,21 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chatbot - Grupo 6</title>
+    <title>Chatbot Burgers & Wraps</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <body>
-        <div id="chat-container">
-            <div id="chat-box"></div>
+
+    <div id="chat-container">
+        <div id="chat-box"></div>
+        
+        <div id="input-container">
             <input type="text" id="user-input" placeholder="Escribe tu mensaje..." />
             <button id="send-btn">Enviar</button>
+        </div>
+
+        <div id="buttons-container">
             <button onclick="mostrarProductos()">🍔 Ver Productos</button>
             <button onclick="mostrarCarrito()">🛒 Ver Carrito</button>
             <button onclick="confirmarCompra()">✅ Confirmar Compra</button>
         </div>
-    
-        <!-- Cargar script al final para evitar errores -->
-        <script src="scripts.js"></script>
-    </body>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
 </html>
